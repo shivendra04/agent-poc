@@ -1,0 +1,18 @@
+shivendra@shivendra-HP-EliteBook-840-G6:~/Shivendra$ gh auth login
+? What account do you want to log into? GitHub.com
+? What is your preferred protocol for Git operations? SSH
+? Upload your SSH public key to your GitHub account? /home/shivendra/.ssh/google_compute_engine.pub
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 8757-D5A3
+- Press Enter to open github.com in your browser... 8757-D5A3
+Opening in existing browser session.
+        ✓ Authentication complete. Press Enter to continue...
+
+- gh config set -h github.com git_protocol ssh
+✓ Configured git protocol
+✓ Uploaded the SSH key to your GitHub account: /home/shivendra/.ssh/google_compute_engine.pub
+✓ Logged in as shivendra04
+
+
+To clone repo: gh repo clone shivendra04/agent-poc
